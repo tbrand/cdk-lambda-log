@@ -1,5 +1,7 @@
 # cdk-lambda-log
 
+test
+
 **"tail" the latest Lambda function's log by one line**
 
 ![](/imgs/demo.gif)
