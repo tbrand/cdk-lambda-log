@@ -6,7 +6,8 @@
     "build": "npx tsc",
     "watch": "npx tsc -w",
     "dev": "npx ts-node ./src/main.ts",
-    "lint": "npx prettier --write --ignore-unknown src/**/*.ts"
+    "lint": "npx prettier --write --ignore-unknown src/**/*.ts",
+    "lint-dry-run": "npx prettier --check src/**/*.ts"
   },
   "bin": {
     "cdk-lambda-log": "./bin/cdk-lambda-log.js"
