@@ -1,6 +1,6 @@
 {
   "name": "cdk-lambda-log",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "\"tail\" the latest Lambda function's log by one line",
   "scripts": {
     "build": "npx tsc",
