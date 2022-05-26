@@ -17,7 +17,7 @@ jobs:
         with:
           node-version: 18
       - run: npm ci
-      - run: npm lint-dry-run
+      - run: npm run lint-dry-run
 
   publish-npm:
     needs: build
